@@ -4,7 +4,12 @@ border: 0;
 margin: 0;
 font:inherit;
 font-size: 20px;
-font-family:helvetica;
+font-family: 'Raleway Dots';
+font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body{
@@ -17,6 +22,7 @@ img{
   padding:0;
   display: inline;
   text-align: center;
+  max-width: 100%; /*responsive*/
 }
 
 div{
@@ -38,8 +44,17 @@ ul{
     text-align: center;
   }
 
+a{
+  text-decoration: none;
+  color:grey;
+}
+
+footer{
+  font-size: 12px;
+  text-align: left; 
+}
 .nav{
-  background-color: #FFD2FC;
+  background-color: #f4e76e;
   margin-bottom: 2em;
   margin-top: 1em;
   padding-top: 1em;
@@ -69,16 +84,13 @@ ul{
 
 }
 
-.blog{
-  background-color: #FFD2FC;
+.blog,.social, footer{
+  background-color: #f4e76e;
   padding: .5em 0 .5em 0;
 }
 
-.social{
-  background-color: #FFD2FC;
-}
 
-.social a{
+a{
   display: inline-block;;
    margin: 0 auto;
    float:inherit;
@@ -96,11 +108,11 @@ ul{
 }
 
 .tagline b:last-child{
-  color:#17BEBB;
+  color:#bf55ec;
 }
 
 .tagline{
-  margin-top: 7.5em;
+  margin-top: 6em;
 }
 
 .about h2{
@@ -116,4 +128,10 @@ color:grey;
 .about{
   margin-bottom: 4em;
   margin-top: .5em;
+}
+
+a img{
+  width:42px;
+  height:42px;
+  border:0;
 }
