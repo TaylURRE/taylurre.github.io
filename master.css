@@ -180,4 +180,7 @@ footer{
   margin-bottom: auto;
   margin-top: auto;
 }
+body{
+  height: 768px;
+}
 }
