@@ -1,0 +1,198 @@
+html, body, h1, h2,h3,h4,p, div {
+  padding:0;
+  border: 0;
+  margin: 0;
+  font:inherit;
+  font-size: 20px;
+  font-family: Helvetica, 'Raleway Dots';
+  font-weight: lighter;
+  }
+
+nav {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.navbar-brand img {
+  height: 40px;
+  width: auto;
+
+}
+
+.nav-pills li {
+  background-color: #2BBBAD;
+  color: grey;
+}
+
+.nav-pills li a {
+  color: #D5EDE6;
+  font-family: Helvetica;
+  font-size: 16px;
+}
+
+.navbar-fixed-top {
+  border-bottom: 0px;
+  background: #2BBBAD;
+}
+
+li a:hover {
+  color:#2BBBAD;
+}
+
+div.jumbotron {
+  background-color: white;
+  padding-left: 60px;
+}
+
+section.about {
+  background-color: #7CA524;
+  padding-bottom: 50px;
+
+}
+
+.about img {
+  border-radius: 50%;
+}
+
+.about h1 {
+  color: #FFFCF7;
+  padding-bottom:5px;
+  margin-bottom:40px;
+  width: 110px;
+}
+
+hr.style1 {
+  height: 7px;
+	border: 0;
+	box-shadow: 0px -10px 10px 0px #759B22 inset;
+  margin: 0px auto;
+}
+
+ul {
+  list-style:none;
+  text-align:center;
+}
+
+li h4 {
+  border-bottom: thick double #437F97;
+  text-align: center;
+  padding-bottom: 6px;
+}
+
+li p {
+  color: white;
+}
+
+li h4 {
+  color:#444444;
+  font-size:1.5em;
+}
+
+hr.style2 {
+  height: 30px;
+	border: 0;
+	box-shadow: 0px 10px 10px -10px black inset;
+  margin: 0px auto;
+}
+
+.portfolio img {
+  width: 300px;
+  height: 180px;
+}
+
+.caption h4, .caption p {
+  text-align: center;
+}
+
+section.intro {
+  padding-top:100px;
+  padding-bottom:20px;
+}
+
+div.col-lg-2.item1, div.col-lg-2.item2 {
+  margin-right: 0px;
+  display:inline-block;
+  width:400px;
+  text-align:center;
+}
+
+div.row {
+  text-align:center;
+}
+
+.portfolio h1 {
+  padding-bottom:10px;
+  color: #444444;
+  margin-bottom:40px;
+}
+
+.portfolio {
+  padding-bottom:80px;
+}
+
+form {
+   max-width: 600px;
+   text-align: center;
+   margin: 20px auto;
+}
+
+textarea {
+  height: 126px;
+  border-radius: 7px;
+  }
+
+input {
+  height: 60px;
+  width: 80%;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 2em;
+}
+
+textarea#input-message {
+  height: 200px;
+  width: 80%;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 2em;
+  padding: 1px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+
+}
+
+#input-submit {
+  background-color:#FF870F;
+  border-style: none;
+  color:white;
+}
+
+section.contact {
+  background-color:#444444;
+}
+
+.contact h1 {
+  color:white;
+  margin-bottom:40px;
+}
+
+p.information {
+  text-align:left;
+}
+
+.icons li {
+  display:inline-block;
+  padding-right:50px;
+}
+
+ul.icons {
+  margin-top:90px;
+  margin-bottom:70px;
+}
+
+footer {
+  background-color: #2BBBAD;
+  color: #eeeeee;
+}
