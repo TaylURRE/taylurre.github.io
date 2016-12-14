@@ -4,10 +4,29 @@ html, body, h1, h2,h3,h4,p, div {
   margin: 0;
   font:inherit;
   font-size: 20px;
-  font-family: Helvetica, 'Raleway Dots';
-  font-weight: lighter;
+  font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif;
+  font-weight: normal;
   }
 
+h1 {
+  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+  font-size: 63px;
+  }
+
+hr.style2 {
+  height: 30px;
+  border: 0;
+  box-shadow: 0px 10px 10px -10px black inset;
+  margin: 0px auto;
+  }
+
+
+section {
+    padding-top:5%;
+    padding-bottom:2%;
+  }
+
+/* Navigation Bar*/
 nav {
   padding-top: 15px;
   padding-bottom: 5px;
@@ -39,15 +58,28 @@ li a:hover {
   color:#2BBBAD;
 }
 
+/*Welcome Page*/
+
 div.jumbotron {
   background-color: white;
   padding-left: 60px;
 }
 
-section.about {
-  background-color: #7CA524;
-  padding-bottom: 50px;
 
+.icons li {
+  display:inline-block;
+  padding-right:50px;
+}
+
+ul.icons {
+  margin-top:90px;
+  margin-bottom:72px;
+}
+
+
+/*About Section*/
+section.about {
+  background-color: #9dc645;
 }
 
 .about img {
@@ -88,11 +120,10 @@ li h4 {
   font-size:1.5em;
 }
 
-hr.style2 {
-  height: 30px;
-	border: 0;
-	box-shadow: 0px 10px 10px -10px black inset;
-  margin: 0px auto;
+.information p {
+  text-align:left;
+  line-height: 1.5;
+  padding-bottom: .75em;
 }
 
 .portfolio img {
@@ -102,11 +133,6 @@ hr.style2 {
 
 .caption h4, .caption p {
   text-align: center;
-}
-
-section.intro {
-  padding-top:100px;
-  padding-bottom:20px;
 }
 
 div.col-lg-2.item1, div.col-lg-2.item2 {
@@ -130,7 +156,39 @@ div.row {
   padding-bottom:80px;
 }
 
+/*Form*/
+
 form {
+   max-width: 600px;
+   text-align: center;
+   margin: 20px auto;
+}
+
+input {
+  height: 40px;
+  width: 80%;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 1em;
+}
+
+#input-submit {
+  background-color:#FF870F;
+  border-style: none;
+  color:white;
+}
+
+section.contact {
+  background-color:#808080;
+}
+
+.contact h1 {
+  color:white;
+  margin-bottom:40px;
+}
+
+
+/*form {
    max-width: 600px;
    text-align: center;
    margin: 20px auto;
@@ -142,55 +200,29 @@ textarea {
   }
 
 input {
-  height: 60px;
+  height: 40px;
   width: 80%;
   border-radius: 7px;
   text-align: center;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 textarea#input-message {
-  height: 200px;
+  height: 100px;
   width: 80%;
   border-radius: 7px;
   text-align: center;
-  font-size: 2em;
+  font-size: 1em;
   padding: 1px;
   border-width: 2px;
   border-style: inset;
   border-color: initial;
   border-image: initial;
 
-}
+}*/
 
-#input-submit {
-  background-color:#FF870F;
-  border-style: none;
-  color:white;
-}
 
-section.contact {
-  background-color:#444444;
-}
-
-.contact h1 {
-  color:white;
-  margin-bottom:40px;
-}
-
-p.information {
-  text-align:left;
-}
-
-.icons li {
-  display:inline-block;
-  padding-right:50px;
-}
-
-ul.icons {
-  margin-top:90px;
-  margin-bottom:72px;
-}
+/*footer*/
 
 footer {
   background-color: #2BBBAD;
