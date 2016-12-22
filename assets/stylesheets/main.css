@@ -48,6 +48,7 @@ section.intro {
 .nav-pills li {
   background-color: #2BBBAD;
   color: grey;
+  padding-top: .3rem;
 }
 
 .nav-pills li a {
