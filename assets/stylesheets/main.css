@@ -14,24 +14,31 @@ h1 {
   }
 
 hr.style2 {
-  height: 5px;
-  border: 0;
-  box-shadow: 0px 10px 10px -10px black inset;
-  margin: 0px auto;
-  }
+    height: 7px;
+    border: 0;
+    box-shadow: 0px 10px 10px 0px #205192 inset;
+    margin: 0px auto;
+}
 
 
 section.intro {
-    padding-top:5%;
-    padding-bottom:2%;
-  }
-
-/* Navigation Bar*/
-nav {
-  padding-top: 15px;
-  padding-bottom: 5px;
+  padding-top: 3rem;
+  padding-bottom: 2%;
+  background-image: url("https://docs.google.com/drawings/d/1vMX1FPM_f6vfVzRyEBWNw77zxdaFqNrKTK0eF9CU8hs/pub?w=926&h=522");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
 }
 
+/* Navigation Bar*/
+
+.navbar-brand {
+    float: left;
+    height: 2em;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
 .navbar-brand img {
   height: 40px;
   width: auto;
@@ -61,30 +68,29 @@ li a:hover {
 /*Welcome Page*/
 
 div.jumbotron {
-  background-color: white;
-  padding-left: 60px;
+  background-color: rgba(193, 193, 193, 0);
 }
 
-
+.jumbotron h1 {
+  color: #336CB7;
+}
 .icons li {
-  display:inline-block;
-  padding-right:50px;
+  display: inline-block;
+  padding-right: 50px;
 }
 
 ul.icons {
-  margin-top:90px;
-  margin-bottom:72px;
+  margin-top: 3rem;
+  margin-bottom: 72px;
 }
 
+ /*About section*/
 
-/*About Section*/
-section.about {
-  /*background-color: #bbd87c;*/
-  background-image: url("https://docs.google.com/drawings/d/1vMX1FPM_f6vfVzRyEBWNw77zxdaFqNrKTK0eF9CU8hs/pub?w=926&h=522");
-  background-repeat: no-repeat;
-  background-size:100%;
-    z-index: -1;
-}
+section#target1.about {
+ background-color: #94C32C;
+ padding-bottom: 3rem;
+ padding-top: 2rem;
+ }
 
 .about img {
   border-radius: 50%;
@@ -149,13 +155,14 @@ div.row {
 
 .portfolio h1 {
   padding-bottom:10px;
-  color: #444444;
+  color: white;
   margin-bottom:40px;
 }
 
 .portfolio {
-  padding-bottom:80px;
-  background-color: rgba(136, 211, 255, 0.37);
+  padding-bottom:3rem;
+  padding-top: 2rem;
+  background-color: #336CB7
 }
 
 /*Form*/
@@ -181,48 +188,13 @@ input {
 }
 
 section.contact {
-  background-color:#808080;
+  background-color:#94C32C;
 }
 
 .contact h1 {
-  color:white;
+  color: white;
   margin-bottom:40px;
 }
-
-
-/*form {
-   max-width: 600px;
-   text-align: center;
-   margin: 20px auto;
-}
-
-textarea {
-  height: 126px;
-  border-radius: 7px;
-  }
-
-input {
-  height: 40px;
-  width: 80%;
-  border-radius: 7px;
-  text-align: center;
-  font-size: 1em;
-}
-
-textarea#input-message {
-  height: 100px;
-  width: 80%;
-  border-radius: 7px;
-  text-align: center;
-  font-size: 1em;
-  padding: 1px;
-  border-width: 2px;
-  border-style: inset;
-  border-color: initial;
-  border-image: initial;
-
-}*/
-
 
 /*footer*/
 
