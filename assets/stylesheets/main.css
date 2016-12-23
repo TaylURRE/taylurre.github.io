@@ -61,6 +61,7 @@ section.intro {
 
 nav.navbar.navbar-default.navbar-fixed-top {
   background: #336CB7 !important;
+  border: none;
 }
 
 li a:hover {
