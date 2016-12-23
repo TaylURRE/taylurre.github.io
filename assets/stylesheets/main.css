@@ -32,6 +32,7 @@ section.intro {
 
 /* Navigation Bar*/
 
+
 .navbar-brand {
     float: left;
     height: 2em;
@@ -39,10 +40,10 @@ section.intro {
     font-size: 18px;
     line-height: 20px;
 }
+
 .navbar-brand img {
   height: 40px;
   width: auto;
-
 }
 
 .nav-pills li {
@@ -57,14 +58,15 @@ section.intro {
   font-size: 16px;
 }
 
-.navbar-fixed-top {
-  border-bottom: 0px;
-  background-color: #336CB7;
+
+nav.navbar.navbar-default.navbar-fixed-top {
+  background: #336CB7 !important;
 }
 
 li a:hover {
-  color: #3D84E2;;
+  color: #3D84E2;
 }
+
 
 /*Welcome Page*/
 
