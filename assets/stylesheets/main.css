@@ -3,14 +3,14 @@ html, body, h1, h2,h3,h4,p, div {
   border: 0;
   margin: 0;
   font:inherit;
-  font-size: 20px;
-  font-family: "Arial Narrow", Arial, "Helvetica Condensed", Helvetica, sans-serif;
+  font-size: 16px;
+  font-family: 'Catamaran', sans-serif;
   font-weight: normal;
   }
 
 h1 {
-  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
-  font-size: 63px;
+  font-family: 'Martel', serif;
+  font-size: 3.5rem;
   }
 
 hr.style2 {
@@ -46,24 +46,24 @@ section.intro {
 }
 
 .nav-pills li {
-  background-color: #2BBBAD;
+  background-color: #336CB7;
   color: grey;
   padding-top: .3rem;
 }
 
 .nav-pills li a {
-  color: #D5EDE6;
-  font-family: Helvetica;
+  color: white;
+  font-family: 'Catamaran', sans-serif;
   font-size: 16px;
 }
 
 .navbar-fixed-top {
   border-bottom: 0px;
-  background: #2BBBAD;
+  background-color: #336CB7;
 }
 
 li a:hover {
-  color:#2BBBAD;
+  color: #3D84E2;;
 }
 
 /*Welcome Page*/
@@ -88,7 +88,7 @@ ul.icons {
  /*About section*/
 
 section#target1.about {
- background-color: #94C32C;
+ background-color: #ccc;
  padding-bottom: 3rem;
  padding-top: 2rem;
  }
@@ -104,7 +104,7 @@ section#target1.about {
 hr.style1 {
   height: 7px;
 	border: 0;
-	box-shadow: 0px -10px 10px 0px #759B22 inset;
+	box-shadow: 0px 10px 10px -6px black inset;
   margin: 0px auto;
 }
 
@@ -114,7 +114,7 @@ ul {
 }
 
 li h4 {
-  border-bottom: thick double #437F97;
+  border-bottom: thick double #336CB7;
   text-align: center;
   padding-bottom: 6px;
 }
@@ -189,17 +189,20 @@ input {
 }
 
 section.contact {
-  background-color:#94C32C;
+  background-color: #94C32C;
+  padding-top: 2rem;
+  padding-bottom:2rem;
 }
 
 .contact h1 {
   color: white;
   margin-bottom:40px;
+  text-align: center;
 }
 
 /*footer*/
 
 footer {
-  background-color: #2BBBAD;
+  background-color: #336CB7;
   color: #eeeeee;
 }
