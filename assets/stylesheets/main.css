@@ -80,7 +80,8 @@ div.jumbotron {
 }
 
 .jumbotron h1 {
-  color: #336CB7;
+  color:white;
+  /*color: #336CB7;*/
 }
 .icons li {
   display: inline-block;
