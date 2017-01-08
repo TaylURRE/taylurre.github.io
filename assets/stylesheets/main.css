@@ -1,4 +1,15 @@
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 414px) {
+  .container {
+    max-width: 80%;
+  }
+
+  .jumbotron p {
+    font-size: 30px;
+  }
+
+  .jumbotron h1 {
+    font-size: 90px;
+  }
 
 }
 
@@ -47,7 +58,7 @@ section.intro {
 
 .navbar-brand img {
   height: 40px;
-  width: auto;
+  /*width: auto;*/
 }
 
 .nav-pills li {
@@ -143,7 +154,7 @@ li h4 {
 }
 
 .portfolio img {
-  width: 300px;
+  width: 20%;
   height: 180px;
 }
 
@@ -154,7 +165,7 @@ li h4 {
 div.col-lg-2.item1, div.col-lg-2.item2 {
   margin-right: 0px;
   display:inline-block;
-  width:400px;
+  max-width: 50%;
   text-align:center;
 }
 
@@ -177,7 +188,7 @@ div.row {
 /*Form*/
 
 form {
-   max-width: 600px;
+   max-width: 70%;
    text-align: center;
    margin: 20px auto;
 }
