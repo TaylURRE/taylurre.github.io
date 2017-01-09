@@ -11,10 +11,10 @@ canvas {
 
 /* ---- splash page container ---- */
 
-#splash {
+div#splash {
   position: relative;
   width: 100%;
-  height: 100em;
+  height: 80em;
   background-color: #551a8b;
   text-align: center;
 }
