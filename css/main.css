@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+
+/* ---- splash page container ---- */
+
+#splash {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  background-color: #551a8b;
+  text-align: center;
+}
+
+
+/* fonts */
+
+p,
+h1,
+h4 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+  font-weight: 200;
+  margin: 0;
+}
+
+h4 {
+  text-transform: lowercase;
+  padding: 5px;
+}
+
+h1 {
+  padding: 25px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+
+/* navbar */
+
+.navbar {
+  background-color: #551a8b;
+  margin: 0;
+  border-radius: 0;
+}
+
+
+/* icons */
+
+.icons li {
+  display: inline-block;
+  padding-right: 50px;
+  color: #ffffff;
+}
+
+.icons a {
+  color: #ffffff;
+}
+
+body {
+  background-color: black;
+}
+
+.about {
+  height: 40%;
+}
+
+li a {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+i.fa {
+  color: white;
+  margin: 15px auto;
+}
+
+li a:hover,
+li a i:hover {
+  color: #dac6ec;
+}
+
+.nav-pills {
+  padding-top: 10px;
+}
+
+.fa {
+  padding-right: 5px;
+}
+
+#splash {
+  padding-top: 5%;
+  height: 70em;
+}
+
+.fa-cogs {
+font-size: 60px;
+}
+/*temporary */
+.about {
+  text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+
+  div#splash {
+    height: 80em;
+    padding-top: 20%;
+  }
+
+}
