@@ -45,6 +45,15 @@ h1 {
 }
 
 
+.purpleText {
+  color:#dac6ec;
+}
+
+.largerText {
+  color: #ffffff;
+  font-size: 25px;
+}
+
 /* navbar */
 
 .navbar {
