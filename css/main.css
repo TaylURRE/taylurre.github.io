@@ -140,6 +140,29 @@ font-size: 60px;
 }
 /*---portfolio end---*/
 
+/*---Contact---*/
+input {
+  height: 40px;
+  max-width: 30%;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 1em;
+  background-color: green;
+}
+
+#input-submit {
+  border-style: none;
+  color:white;
+  font-size: 20px;
+  text-transform: lowercase;
+}
+/*---Contact End---*/
+footer{
+  padding-left: 10px;
+}
+i.fa.fa-heart {
+  margin: auto 0;
+}
 /*---media---*/
 
 @media only screen and (max-width: 400px) {
