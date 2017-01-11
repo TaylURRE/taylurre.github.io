@@ -129,6 +129,7 @@ div.cp_embed_wrapper {
 .col-md-6 h1 {
   text-align: center;
   margin: 0 auto;
+  padding-top: 10px;
 }
 
 .col-md-6 p {
@@ -161,7 +162,7 @@ footer{
   padding-left: 10px;
 }
 i.fa.fa-heart {
-  margin: auto 0;
+  padding: 0;
 }
 /*---media---*/
 
