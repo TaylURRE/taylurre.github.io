@@ -13,8 +13,8 @@
 <body>
   <!-- navigation bar -->
 <nav class="navbar">
-  <i class="fa fa-chevron-circle-right fa-4x pull-right" id="toggleOn"></i>
-  <i class="fa fa-chevron-circle-left fa-4x pull-right" id="toggleOff"></i>
+  <!-- <i class="fa fa-chevron-circle-right fa-4x pull-right" id="toggleOn"></i>
+  <i class="fa fa-chevron-circle-left fa-4x pull-right" id="toggleOff"></i> -->
   <ul class="nav nav-pills pull-right" id="list">
     <!-- <li><a href="#"><h4>about me</h4></a></li> -->
     <li><a href="#portfolio"><h4>portfolio</h4></a></li>
@@ -32,45 +32,30 @@
     <li><a href="https://www.linkedin.com/in/taylorstallworth"><i class="fa fa-linkedin fa-5x" aria-hidden="true"></i></a></li>
   </ul>
 </div>
-<section class="portfolio container">
 
-  <h1 class= "title" id="portfolio">Portfolio </h1>
-  <h2>Coming soon...</h2>
-  <!-- <div class="row">
-      <div class="col-md-6">
-        <h1> Random Quote Generator</h1>
-          <p> Generates a quote at random from an array of quotes. Twitter api connected, allows the ability to tweet the quote generated.</p>
-          <p data-height="300" data-theme-id="26316" data-slug-hash="ZBqryV" data-default-tab="result" data-user="tay_llure" data-embed-version="2" data-pen-title="FreeCodeCamp: Random Quote Generator" class="codepen">See the Pen <a href="http://codepen.io/tay_llure/pen/ZBqryV/">FreeCodeCamp: Random Quote Generator</a> by Taylor Stallworth (<a href="http://codepen.io/tay_llure">@tay_llure</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-      </div>
-      <div class="col-md-6">
-        <h1>Wikipedia Viewer</h1>
-          <p>Returns wikipedia search results. Results linked to the full page content. There is also a clickable button to a random Wikipedia page. Wikipedia api connected.</p>
-          <p data-height="300" data-theme-id="26316" data-slug-hash="eBwVEm" data-default-tab="result" data-user="tay_llure" data-embed-version="2" data-pen-title="FreeCodeCamp: Wikipedia Viewer" class="codepen">See the Pen <a href="http://codepen.io/tay_llure/pen/eBwVEm/">FreeCodeCamp: Wikipedia Viewer</a> by Taylor Stallworth (<a href="http://codepen.io/tay_llure">@tay_llure</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-      </div>
-      <div class="col-md-6">
-        <h1>Tribute Page</h1>
-          <p>Displays my practice with Bootstrap HTML and CSS</p>
-          <p data-height="300" data-theme-id="26316" data-slug-hash="xRZEov" data-default-tab="result" data-user="tay_llure" data-embed-version="2" data-pen-title="FreeCodeCamp: Tribute Page" class="codepen">See the Pen <a href="http://codepen.io/tay_llure/pen/xRZEov/">FreeCodeCamp: Tribute Page</a> by Taylor Stallworth (<a href="http://codepen.io/tay_llure">@tay_llure</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-      </div>
-      <div class="col-md-6">
-        <h1>Weather Application</h1>
-          <p>Displays the weather based on your geolocation.  Requires a secure browser and geoaccess to work.</p>
-          <p data-height="300" data-theme-id="26316" data-slug-hash="LbarZd" data-default-tab="result" data-user="tay_llure" data-embed-version="2" data-pen-title="FreeCodeCamp: Weather Application" class="codepen">See the Pen <a href="http://codepen.io/tay_llure/pen/LbarZd/">FreeCodeCamp: Weather Application</a> by Taylor Stallworth (<a href="http://codepen.io/tay_llure">@tay_llure</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-      </div>
-  </div> -->
-</section>
-<section class="about container icons">
-  <!-- <h4>Why Web Development?</h4>
-  <h4>What Do You know?</h4>
-  <h4>Interesting Fact</h4> -->
+<section class="quoteProject">
+  <div class="container" id="populateText">
+      <h3 class="title">Be Inspired  :  Random Quote Generator</h3>
+    <div class="btn-container">
+    <button id="generateQuote" type="button" class="btn btn-info">
+      Click Me!
+    </button>
+  </div>
 
+  <div class="quote-container">
+    <h4 id="quote"></h4>
+    <div id="tweet"></div>
+  </div>
+
+</div>
 </section>
-  <div class="container">
+
+  <!-- <div class="container">
   <h1  class= "title" id="contact" >Contact</h1>
 <form class="contact" action="mailto:tstall17@gmail.com" method="GET">
   <input type="submit" value="Email Me" id="input-submit">
 </form>
-  </div>
+  </div> -->
 
 <!-- scripts -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
@@ -78,5 +63,8 @@
     <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
     <script src="js/index.js"></script>
 </body>
-<footer><p> Made with<span><i class="fa fa-heart" aria-hidden="true"></i></span>by Taylor</p></footer>
+<footer>
+  <p> made with<span><i class="fa fa-heart" aria-hidden="true"></i></span>by taylor <span>&copy; Copyright 2017</span></p>
+</footer>
+
 </html>

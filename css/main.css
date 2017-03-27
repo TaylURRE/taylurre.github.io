@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font: normal 75% Arial, Helvetica, sans-serif;
-  background-color: black;
+  background-color: #eeeeee;
 }
 
 canvas {
@@ -16,9 +16,10 @@ p,
 h1,
 h4 {
   font-family: 'Open Sans Condensed', sans-serif;
-  color: white;
+  color:#555;
   font-weight: 200;
-  margin: 0;
+  margin: 0px auto;
+  max-width: 90%;
 }
 
 p {
@@ -34,6 +35,8 @@ h3 {
 
 .name {
   font-weight: bold;
+  margin-top: 200px;
+  color: #ffffff;
 }
 
 .purpleText {
@@ -48,8 +51,8 @@ h3 {
 .title {
   font-size: 40px;
   text-transform: lowercase;
-  font-family: 'Rock Salt', cursive, 'Frank Ruhl Libre';
-  color: #e7e7e7;
+  font-family: 'Frank Ruhl Libre', serif;
+  color: ##555;
   padding-bottom: 10px;
 }
 
@@ -61,7 +64,7 @@ div#splash {
   position: relative;
   width: 100%;
   height: 850px;
-  background-color: #551a8b;
+  background-color: #AD8EC8;
   text-align: center;
 }
 
@@ -75,7 +78,7 @@ div#splash {
 /*--- navbar ---*/
 
 .navbar {
-  background-color: #551a8b;
+  background-color: #AD8EC8;
   margin: 0;
   border-radius: 0;
 }
@@ -116,30 +119,43 @@ li a i:hover {
 }
 /*---icons end---*/
 
-/*--- portfolio ---*/
-div.cp_embed_wrapper {
-  padding-top: 16px;
-  max-width: 75%;
-  margin: 0 auto;
-}
-.container {
-  padding-top: 20px;
+/*Quotes project*/
+
+#quote {
+  font-size: 30px;
 }
 
-.col-md-6 h1 {
+.quote-container, .btn-container {
+  display: block;
+  height: 215px;
+  margin: 0px auto;
   text-align: center;
-  margin: 0 auto;
-  padding-top: 10px;
 }
 
-.col-md-6 p {
-  margin: 0 auto;
+.btn-container {
+  height: 50px;
 }
 
-.fa-cogs {
-font-size: 60px;
+button#generateQuote {
+  background: #e4e4e4;
+  border: #bdbdbd;
+  color: #555;
 }
-/*---portfolio end---*/
+
+button#generateQuote:focus {
+outline: 0 !important;
+}
+
+#populateText h3 {
+  font-size: 20px;
+  color: #424242;
+}
+
+#tweet {
+  margin-top:15px;
+}
+
+/*Quotes project*/
 
 /*---Contact---*/
 input {
@@ -158,23 +174,71 @@ input {
   text-transform: lowercase;
 }
 /*---Contact End---*/
-footer{
+footer {
   padding-left: 10px;
+  width: 100%;
+  background-color: #616161;
+}
+
+footer p {
+  color: white;
+  margin: 0px !important;
+}
+
+footer span {
+  margin: auto 5px;
+  color: #AD8EC8;
+
 }
 i.fa.fa-heart {
   padding: 0;
+  color: #AD8EC8;
 }
 /*---media---*/
 
-@media only screen and (max-width: 400px) {
-
+/*tablet*/
+@media only screen and (max-width: 1025px) {
   div#splash {
-    height: 80em;
-    padding-top: 20%;
+    height: 1000px;
+    padding-top: 5%;
+  }
+
+}
+
+@media only screen and (max-width: 736px) {
+  div#splash {
+    height: 375px;
+    padding-top: 5%;
+  }
+  .name {
+    margin-top: 10px;
+  }
+}
+
+/*mobile landscape*/
+@media only screen and (max-width: 700px) {
+    div#splash {
+      height: 400px;
+      padding-top: 5%;
+    }
+
+  .name {
+    margin-top: 10px;
+  }
+}
+
+/*mobile*/
+@media only screen and (max-width: 425px) {
+  div#splash {
+    height: 675px;
+    padding-top: 5%;
+  }
+
+  .name {
+    margin-top: 80px;
   }
 
   div.cp_embed_wrapper {
     max-width: 100%;
   }
-
 }
