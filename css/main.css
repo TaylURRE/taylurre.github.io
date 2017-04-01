@@ -123,11 +123,12 @@ li a i:hover {
 
 #quote {
   font-size: 30px;
+  text-align: left;
 }
 
 .quote-container, .btn-container {
   display: block;
-  height: 215px;
+  height: 280px;
   margin: 0px auto;
   text-align: center;
 }
