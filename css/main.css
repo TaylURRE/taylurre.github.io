@@ -122,7 +122,7 @@ li a i:hover {
 /*Quotes project*/
 
 #quote {
-  font-size: 30px;
+  font-size: 25px;
   text-align: left;
 }
 
@@ -157,7 +157,41 @@ outline: 0 !important;
 }
 
 /*Quotes project*/
+/**************Logos*****************/
+ul.image_list {
+  list-style: none;
+  list-style: none;
+  margin: 0px auto;
+  padding: 0px;
+  text-align: center;
+}
 
+.image_list li {
+  display: inline-block;
+  height:300px;
+  width: 300px;
+}
+
+.image_list li#bear {
+  background-size: 300px 300px;
+  display: inline-block;
+  background-image: url("../images/Bear_Logo.svg");
+  background-repeat: no-repeat;
+}
+
+.image_list li#lemur {
+  background-image: url("../images/Lemur_Logo.svg");
+  background-size: 300px 300px;
+  background-repeat: no-repeat;
+}
+
+.image_list li#panda {
+  background-image: url("../images/Panda_Logo.svg");
+  background-size: 300px 300px;
+  background-repeat: no-repeat;
+
+}
+/*******************************/
 /*---Contact---*/
 input {
   height: 40px;
