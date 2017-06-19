@@ -218,6 +218,14 @@ i.fa.fa-heart {
     margin-top: 10px;
   }
 }
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+  #splash {
+    padding-top: 10% !important;
+  }
+  .name {
+    margin-top: 10px;
+  }
+}
 
 @media only screen and (max-width: 320px) {
 
