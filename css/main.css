@@ -38,12 +38,16 @@ h3 {
 }
 .title {
   font-size: 40px;
-  text-transform: lowercase;
-  font-family: 'Frank Ruhl Libre', serif;
   color: ##555;
+  padding-top: 20px;
   padding-bottom: 10px;
+  margin: 0px;
 }
 
+.contact {
+  padding-bottom: 20px;
+  text-align: center;
+}
 /*--- fonts end ---*/
 
 /* ---- splash page container ---- */
@@ -150,6 +154,12 @@ ul.image_list {
   background-size: 300px 300px;
   display: inline-block;
   background-image: url("../images/Bear_Logo.svg");
+  background-repeat: no-repeat;
+}
+.image_list li#cat {
+  background-size: 300px 300px;
+  display: inline-block;
+  background-image: url("../images/Cat_Logo.svg");
   background-repeat: no-repeat;
 }
 .image_list li#lemur {
