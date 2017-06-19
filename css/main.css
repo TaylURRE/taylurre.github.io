@@ -3,15 +3,11 @@ body {
   font: normal 75% Arial, Helvetica, sans-serif;
   background-color: #eeeeee;
 }
-
 canvas {
   display: block;
   vertical-align: bottom;
 }
-
-
 /*--- fonts ---*/
-
 p,
 h1,
 h4 {
@@ -21,33 +17,25 @@ h4 {
   margin: 0px auto;
   max-width: 90%;
 }
-
 p {
   font-size: 16px;
   max-width: 75%;
 }
-
 h3 {
-
   text-transform: lowercase;
   padding: 5px;
 }
-
 .name {
   font-weight: bold;
-  margin-top: 200px;
   color: #ffffff;
 }
-
-.purpleText {
+.purple-text {
   color:#dac6ec;
 }
-
-.largerText {
+.larger-text {
   color: #ffffff;
   font-size: 25px;
 }
-
 .title {
   font-size: 40px;
   text-transform: lowercase;
@@ -59,28 +47,22 @@ h3 {
 /*--- fonts end ---*/
 
 /* ---- splash page container ---- */
-
 div#splash {
   position: relative;
   width: 100%;
-  height: 850px;
+  height: 100vh;
+  padding-top: 25%;
   background-color: #AD8EC8;
   text-align: center;
 }
-
-#splash {
-  padding-top: 5%;
-  height: 70em;
-}
-
 /*--- splash page end ---*/
 
 /*--- navbar ---*/
-
 .navbar {
   background-color: #AD8EC8;
   margin: 0;
   border-radius: 0;
+  display: none;
 }
 /*--- navbar end ---*/
 
@@ -90,106 +72,95 @@ div#splash {
   padding-right: 50px;
   color: #ffffff;
 }
-
 .icons a {
   color: #ffffff;
 }
-
 li a {
   color: #ffffff;
   font-size: 16px;
 }
-
 i.fa {
   color: white;
   margin: 15px auto;
 }
-
 li a:hover,
 li a i:hover {
   color: #dac6ec;
 }
-
 .nav-pills {
   padding-top: 10px;
 }
-
 .fa {
   padding-right: 10px;
 }
 /*---icons end---*/
 
 /*Quotes project*/
-
 #quote {
   font-size: 25px;
   text-align: left;
 }
-
 .quote-container, .btn-container {
   display: block;
   height: 280px;
   margin: 0px auto;
   text-align: center;
 }
-
 .btn-container {
   height: 50px;
 }
-
 button#generateQuote {
   background: #e4e4e4;
   border: #bdbdbd;
   color: #555;
 }
-
 button#generateQuote:focus {
 outline: 0 !important;
 }
-
 #populateText h3 {
   font-size: 20px;
   color: #424242;
 }
-
 #tweet {
   margin-top:15px;
 }
 
 /*Quotes project*/
 /**************Logos*****************/
+.graphics {
+  background: #434343;
+}
+.graphics h1 {
+  color: #fff;
+  padding-top: 20px;
+}
 ul.image_list {
   list-style: none;
-  list-style: none;
+
   margin: 0px auto;
   padding: 0px;
   text-align: center;
 }
-
 .image_list li {
   display: inline-block;
   height:300px;
   width: 300px;
 }
-
 .image_list li#bear {
   background-size: 300px 300px;
   display: inline-block;
   background-image: url("../images/Bear_Logo.svg");
   background-repeat: no-repeat;
 }
-
 .image_list li#lemur {
   background-image: url("../images/Lemur_Logo.svg");
   background-size: 300px 300px;
   background-repeat: no-repeat;
 }
-
 .image_list li#panda {
   background-image: url("../images/Panda_Logo.svg");
   background-size: 300px 300px;
   background-repeat: no-repeat;
-
 }
 /*******************************/
 /*---Contact---*/
@@ -198,15 +169,14 @@ input {
   max-width: 30%;
   border-radius: 7px;
   text-align: center;
-  font-size: 1em;
-  background-color: green;
+  font-size: 16px;
 }
-
 #input-submit {
   border-style: none;
   color:white;
   font-size: 20px;
   text-transform: lowercase;
+  background: #ad8ec8;
 }
 /*---Contact End---*/
 footer {
@@ -214,16 +184,13 @@ footer {
   width: 100%;
   background-color: #616161;
 }
-
 footer p {
   color: white;
   margin: 0px !important;
 }
-
 footer span {
   margin: auto 5px;
   color: #AD8EC8;
-
 }
 i.fa.fa-heart {
   padding: 0;
@@ -233,47 +200,15 @@ i.fa.fa-heart {
 
 /*tablet*/
 @media only screen and (max-width: 1025px) {
-  div#splash {
-    height: 1000px;
-    padding-top: 5%;
-  }
 
 }
 
-@media only screen and (max-width: 736px) {
-  div#splash {
-    height: 375px;
-    padding-top: 5%;
-  }
+@media only screen and (max-width: 768px) {
   .name {
     margin-top: 10px;
   }
 }
 
-/*mobile landscape*/
-@media only screen and (max-width: 700px) {
-    div#splash {
-      height: 400px;
-      padding-top: 5%;
-    }
+@media only screen and (max-width: 320px) {
 
-  .name {
-    margin-top: 10px;
-  }
-}
-
-/*mobile*/
-@media only screen and (max-width: 425px) {
-  div#splash {
-    height: 675px;
-    padding-top: 5%;
-  }
-
-  .name {
-    margin-top: 80px;
-  }
-
-  div.cp_embed_wrapper {
-    max-width: 100%;
-  }
 }
