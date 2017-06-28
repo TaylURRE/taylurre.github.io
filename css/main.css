@@ -44,6 +44,9 @@ h3 {
   margin: 0px;
 }
 
+.title span {
+  font-size: 12px;
+}
 .contact {
   padding-bottom: 20px;
   text-align: center;
@@ -99,6 +102,14 @@ li a i:hover {
 }
 /*---icons end---*/
 
+/*punchline*/
+.punchline {
+  background: #555;
+  color: white;
+  border-bottom: #ad8ec8 16px solid;
+}
+/*punchline*/
+
 /*Quotes project*/
 #quote {
   font-size: 25px;
@@ -136,6 +147,7 @@ outline: 0 !important;
 }
 .graphics h1 {
   color: #fff;
+  padding-bottom: 20px;
   padding-top: 20px;
 }
 ul.image_list {
