@@ -2,6 +2,9 @@ body {
   background:url('/Users/TaylorStallworth/myRepos/taylurre.github.io/images/circls.png') ;
 }
 
+* {
+    line-height: 1.5;
+}
 /*font-family: 'Raleway', sans-serif;
 font-family: 'Sedgwick Ave', cursive;*/
 /*--- fonts ---*/
@@ -133,13 +136,21 @@ i.fa {
 }
 i.fa-2x.pull-right {
   margin-right: 15px;
+  position: absolute;
+  right: 0px;
+  color: #dac6ec;
 }
 li a:hover,
 li a i:hover {
   color: #dac6ec;
 }
 .nav-pills {
-  padding-top: 10px;
+  padding-top: 55px;
+  width: 129px;
+  background: rgba(85, 58, 99, 0.88);
+}
+.nav>li>a:focus, .nav>li>a:hover {
+  background: none;
 }
 /*---icons end---*/
 
