@@ -14,7 +14,7 @@
 <link rel="manifest" href="images/favicons/manifest.json">
 <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="theme-color" content="#ffffff">
-  <link href='https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Open+Sans+Condensed:300|Rock+Salt' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Sedgwick+Ave" rel="stylesheet">
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
   <link rel='stylesheet' href='css/main.css'>
@@ -22,18 +22,19 @@
 </head>
 
 <body>
-  <!-- navigation bar -->
-<nav class='navbar'>
-  <!-- <i class='fa fa-chevron-circle-right fa-4x pull-right' id='toggleOn'></i>
-  <i class='fa fa-chevron-circle-left fa-4x pull-right' id='toggleOff'></i> -->
-  <ul class='nav nav-pills pull-right' id='list'>
-    <!-- <li><a href='#'><h4>about me</h4></a></li> -->
-    <li><a href='#portfolio'><h4>portfolio</h4></a></li>
-    <li><a href='#contact'><h4>contact</h4></a></li>
-  </ul>
-</nav>
 <!-- splash page container-->
-<div id='splash'>
+<div id='splash' class='angle-bottom angle-background'>
+  <!-- navigation bar -->
+  <nav class='navbar navbar-fixed-top'>
+    <i class='fa fa-chevron-circle-right fa-2x pull-right' id='toggleOn'></i>
+    <i class='fa fa-chevron-circle-left fa-2x pull-right' id='toggleOff'></i>
+    <ul class='nav nav-pills pull-right' id='list'>
+      <li><a href='#about'><p>about me</p></a></li>
+      <li><a href='#codefolio'><p>codefolio</p></a></li>
+      <li><a href='#graphics'><p>graphics</p></a></li>
+      <li><a href='#contact'><p>contact</p></a></li>
+    </ul>
+  </nav>
   <h1 class='name'> Taylor <span class='purple-text'>Stallworth</span> Dennis</h1>
   <i class='fa fa-code fa-5x' aria-hidden='true'></i>
   <h4><span class='larger-text'>Web Developer / Designer</span> <span class= 'purple-text'>/ Artist / Social Scientist / Data Analyst/ cat lady / taco'affecionado' / learner / crosswordqween / etc.</span></h4>
@@ -43,26 +44,57 @@
     <li><a href='https://www.linkedin.com/in/taylorstallworth'><i class='fa fa-linkedin fa-5x' aria-hidden='true'></i></a></li>
   </ul>
 </div>
-<div class='graphics'>
-  <h1>I am a Frontend Web Developer based in Chicago, IL and my thing is implementing responsive designs. I am self taught by way of CodeSchool and freecodecamp! I love to code because of the endless opportunities to learn and implement.</h1>
-</div>
-<div class='projects container'>
-  <h1 class='title'>Projects <span>(Checkout my some of my code by viewing my <a href="https://codepen.io/tay_llure/" target="blank">codepen</a> or <a href="https://github.com/TaylURRE" target="blank">github repo</a>)</span></h1>
-  <div class='container' id='populateText'>
-    <h3 class='title'>Be Inspired  :  Random Quote Generator</h3>
-    <div class='btn-container'>
-      <button class='btn btn-info' id='generateQuote' type='button' >
-        Click Me!
-      </button>
-    </div>
-    <div class='quote-container'>
-      <h4 id='quote'></h4>
-      <div id='tweet'></div>
-    </div>
+
+
+
+
+<div class='angle-both angle-background' id='about'>
+  <h1 class='title'>About</h1>
+  <p>I am a Frontend Web Developer based in Chicago, IL and my thing is implementing responsive designs. I am self taught by way of CodeSchool and freecodecamp! I love to code because of the endless opportunities to learn and implement.</p>
+  <div class="progress">
+  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+    <span> HTML </span>
   </div>
 </div>
+<div class="progress">
+  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+    <span >CSS</span>
+  </div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+    <span >Javascript</span>
+  </div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+    <span>Rails</span>
+  </div>
+</div>
+
+</div>
+
+<div class='angle-both angle-background' id='codefolio'>
+  <h1 class='title'>Codefolio <span>(Checkout my some of my code by viewing my <a href="https://codepen.io/tay_llure/" target="blank">codepen</a> or <a href="https://github.com/TaylURRE" target="blank">github repo</a>)</span></h1>
+  <h4>More Coming soon!</h4>
+  <!-- <div id='populateText'>
+    <h4 class=''>Be Inspired  :  Random Quote Generator   <button class='btn btn-info' id='generateQuote' type='button' >
+        Click Me!
+      </button></h4>
+
+    <div class='btn-container'>
+
+    </div>
+    <div class='quote-container'>
+      <p id='quote'></p>
+      <div id='tweet'></div>
+    </div>
+  </div> -->
+</div>
+
+<div class='angle-both angle-background' id='graphics'>
 <div class='graphics'>
-  <h1>Graphics</h1>
+  <h1 class='title'>Graphics</h1>
   <ul class='image_list'>
     <li id='panda'></li>
     <li id='lemur'></li>
@@ -70,11 +102,16 @@
     <li id='cat'></li>
   </ul>
 </div>
-<div class='container'>
+</div>
+
+<div class='angle-top angle-background'>
   <h1  class= 'title' id='contact'>Contact</h1>
   <form class='contact' action='mailto:taylrdennis@gmail.com' method='GET'>
     <input type='submit' value='Email Me' id='input-submit'>
   </form>
+  <footer>
+    <p> made with<span><i class='fa fa-heart' aria-hidden='true'></i></span>by taylor <span>&copy; Copyright 2017</span></p>
+  </footer>
 </div>
 
 <!-- scripts -->
@@ -83,8 +120,6 @@
     <script async src='https://production-assets.codepen.io/assets/embed/ei.js'></script>
     <script src='js/index.js'></script>
 </body>
-<footer>
-  <p> made with<span><i class='fa fa-heart' aria-hidden='true'></i></span>by taylor <span>&copy; Copyright 2017</span></p>
-</footer>
+
 
 </html>

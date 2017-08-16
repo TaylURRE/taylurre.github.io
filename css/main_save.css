@@ -44,22 +44,43 @@ h3 {
   margin: 0px;
 }
 
+.title span {
+  font-size: 12px;
+}
 .contact {
   padding-bottom: 20px;
   text-align: center;
 }
 /*--- fonts end ---*/
 
+
+
 /* ---- splash page container ---- */
-div#splash {
+div#splash{
   position: relative;
+  overflow: hidden;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+div#splash:before {
+  /*position: relative;
   width: 100%;
   height: 100vh;
   padding-top: 25%;
   background-color: #AD8EC8;
-  background-image: url('/triangle-backdrop-td.percentage($number);');
-  background-size: cover;
   text-align: center;
+  background-image: url();*/
+  content: "";
+   position: absolute;
+   width: 200%;
+   height: 200%;
+   top: -50%;
+   left: -50%;
+   z-index: -1;
+   background: url('/Users/TaylorStallworth/myRepos/taylurre.github.io/images/circls.png') 0 0 repeat;
+   -webkit-transform: rotate(30deg);
+   transform: rotate(30deg);
 }
 /*--- splash page end ---*/
 
@@ -101,6 +122,14 @@ li a i:hover {
 }
 /*---icons end---*/
 
+/*punchline*/
+.punchline {
+  background: #555;
+  color: white;
+  border-bottom: #ad8ec8 16px solid;
+}
+/*punchline*/
+
 /*Quotes project*/
 #quote {
   font-size: 25px;
@@ -138,6 +167,7 @@ outline: 0 !important;
 }
 .graphics h1 {
   color: #fff;
+  padding-bottom: 20px;
   padding-top: 20px;
 }
 ul.image_list {
@@ -149,29 +179,29 @@ ul.image_list {
 }
 .image_list li {
   display: inline-block;
-  height:300px;
-  width: 300px;
+  height:200px;
+  width: 200px;
 }
 .image_list li#bear {
-  background-size: 300px 300px;
+  background-size: 200px 200px;
   display: inline-block;
   background-image: url("../images/Bear_Logo.svg");
   background-repeat: no-repeat;
 }
 .image_list li#cat {
-  background-size: 300px 300px;
+  background-size: 200px 200px;
   display: inline-block;
   background-image: url("../images/Cat_Logo.svg");
   background-repeat: no-repeat;
 }
 .image_list li#lemur {
   background-image: url("../images/Lemur_Logo.svg");
-  background-size: 300px 300px;
+  background-size: 200px 200px;
   background-repeat: no-repeat;
 }
 .image_list li#panda {
   background-image: url("../images/Panda_Logo.svg");
-  background-size: 300px 300px;
+  background-size: 200px 200px;
   background-repeat: no-repeat;
 }
 /*******************************/
