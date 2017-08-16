@@ -179,29 +179,29 @@ ul.image_list {
 }
 .image_list li {
   display: inline-block;
-  height:300px;
-  width: 300px;
+  height:200px;
+  width: 200px;
 }
 .image_list li#bear {
-  background-size: 300px 300px;
+  background-size: 200px 200px;
   display: inline-block;
   background-image: url("../images/Bear_Logo.svg");
   background-repeat: no-repeat;
 }
 .image_list li#cat {
-  background-size: 300px 300px;
+  background-size: 200px 200px;
   display: inline-block;
   background-image: url("../images/Cat_Logo.svg");
   background-repeat: no-repeat;
 }
 .image_list li#lemur {
   background-image: url("../images/Lemur_Logo.svg");
-  background-size: 300px 300px;
+  background-size: 200px 200px;
   background-repeat: no-repeat;
 }
 .image_list li#panda {
   background-image: url("../images/Panda_Logo.svg");
-  background-size: 300px 300px;
+  background-size: 200px 200px;
   background-repeat: no-repeat;
 }
 /*******************************/
