@@ -22,18 +22,18 @@
 </head>
 
 <body>
-  <!-- navigation bar -->
-<nav class='navbar'>
-  <!-- <i class='fa fa-chevron-circle-right fa-4x pull-right' id='toggleOn'></i>
-  <i class='fa fa-chevron-circle-left fa-4x pull-right' id='toggleOff'></i> -->
-  <ul class='nav nav-pills pull-right' id='list'>
-    <!-- <li><a href='#'><h4>about me</h4></a></li> -->
-    <li><a href='#portfolio'><h4>portfolio</h4></a></li>
-    <li><a href='#contact'><h4>contact</h4></a></li>
-  </ul>
-</nav>
 <!-- splash page container-->
-<div id='splash'>
+<div id='splash' class='angle-bottom angle-background'>
+  <!-- navigation bar -->
+  <nav class='navbar'>
+    <!-- <i class='fa fa-chevron-circle-right fa-4x pull-right' id='toggleOn'></i>
+    <i class='fa fa-chevron-circle-left fa-4x pull-right' id='toggleOff'></i> -->
+    <ul class='nav nav-pills pull-right' id='list'>
+      <!-- <li><a href='#'><h4>about me</h4></a></li> -->
+      <li><a href='#portfolio'><h4>portfolio</h4></a></li>
+      <li><a href='#contact'><h4>contact</h4></a></li>
+    </ul>
+  </nav>
   <h1 class='name'> Taylor <span class='purple-text'>Stallworth</span> Dennis</h1>
   <i class='fa fa-code fa-5x' aria-hidden='true'></i>
   <h4><span class='larger-text'>Web Developer / Designer</span> <span class= 'purple-text'>/ Artist / Social Scientist / Data Analyst/ cat lady / taco'affecionado' / learner / crosswordqween / etc.</span></h4>
@@ -43,12 +43,20 @@
     <li><a href='https://www.linkedin.com/in/taylorstallworth'><i class='fa fa-linkedin fa-5x' aria-hidden='true'></i></a></li>
   </ul>
 </div>
-<div class='graphics'>
+
+
+
+
+<div class='angle-both angle-background'>
   <h1>I am a Frontend Web Developer based in Chicago, IL and my thing is implementing responsive designs. I am self taught by way of CodeSchool and freecodecamp! I love to code because of the endless opportunities to learn and implement.</h1>
 </div>
-<div class='projects container'>
+
+
+
+
+<div class='angle-both angle-background'>
   <h1 class='title'>Projects <span>(Checkout my some of my code by viewing my <a href="https://codepen.io/tay_llure/" target="blank">codepen</a> or <a href="https://github.com/TaylURRE" target="blank">github repo</a>)</span></h1>
-  <div class='container' id='populateText'>
+  <div id='populateText'>
     <h3 class='title'>Be Inspired  :  Random Quote Generator</h3>
     <div class='btn-container'>
       <button class='btn btn-info' id='generateQuote' type='button' >
@@ -60,21 +68,26 @@
       <div id='tweet'></div>
     </div>
   </div>
+  <div class='graphics'>
+    <h1>Graphics</h1>
+    <ul class='image_list'>
+      <li id='panda'></li>
+      <li id='lemur'></li>
+      <li id='bear'></li>
+      <li id='cat'></li>
+    </ul>
+  </div>
 </div>
-<div class='graphics'>
-  <h1>Graphics</h1>
-  <ul class='image_list'>
-    <li id='panda'></li>
-    <li id='lemur'></li>
-    <li id='bear'></li>
-    <li id='cat'></li>
-  </ul>
-</div>
-<div class='container'>
+
+
+<div class='angle-top angle-background'>
   <h1  class= 'title' id='contact'>Contact</h1>
   <form class='contact' action='mailto:taylrdennis@gmail.com' method='GET'>
     <input type='submit' value='Email Me' id='input-submit'>
   </form>
+  <footer>
+    <p> made with<span><i class='fa fa-heart' aria-hidden='true'></i></span>by taylor <span>&copy; Copyright 2017</span></p>
+  </footer>
 </div>
 
 <!-- scripts -->
@@ -83,8 +96,6 @@
     <script async src='https://production-assets.codepen.io/assets/embed/ei.js'></script>
     <script src='js/index.js'></script>
 </body>
-<footer>
-  <p> made with<span><i class='fa fa-heart' aria-hidden='true'></i></span>by taylor <span>&copy; Copyright 2017</span></p>
-</footer>
+
 
 </html>
