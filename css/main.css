@@ -11,7 +11,7 @@ font-family: 'Sedgwick Ave', cursive;*/
 
 h1,
 h4 {
- font-family: 'Sedgwick Ave', cursive;
+ font-family: 'Sedgwick Ave', cursive !important;
 }
 
 p, h4 {
@@ -163,27 +163,9 @@ li a i:hover {
 /*punchline*/
 
 /*Quotes project*/
-.quote-container {
-  display: block;
-  height: 280px;
-  margin: 0px auto;
-  text-align: center;
-}
-
-button#generateQuote {
-  background: #e4e4e4;
-  border: #bdbdbd;
-  color: #555;
-}
-button#generateQuote:focus {
-outline: 0 !important;
-}
-#populateText h3 {
-  font-size: 20px;
-  color: #424242;
-}
-#tweet {
-  margin-top:15px;
+.carousel {
+  max-width: 600px;
+    margin: 0px auto;
 }
 
 /*Quotes project*/
