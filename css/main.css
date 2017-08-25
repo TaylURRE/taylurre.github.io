@@ -164,8 +164,7 @@ li a i:hover {
 
 /*Quotes project*/
 .carousel {
-    position: relative;
-    width: 50%;
+  max-width: 600px;
     margin: 0px auto;
 }
 
