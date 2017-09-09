@@ -50,8 +50,9 @@ h3 {
   padding-bottom: 20px;
   text-align: center;
 }
-div#splash {
+header#splash {
   text-align: center;
+  margin-bottom: 141px;
 }
 /*--- fonts end ---*/
 
@@ -64,7 +65,6 @@ div#splash {
 }
 .angle-background:last-of-type {
   margin-bottom: 0;
-  padding: 0 20px;
 }
 .angle-both {
   position: relative;
@@ -168,8 +168,6 @@ li a i:hover {
     margin: 0px auto;
 }
 
-/*Quotes project*/
-
 /**************Logos*****************/
 
 ul.image_list {
@@ -222,11 +220,15 @@ input {
   font-size: 20px;
   text-transform: lowercase;
   background: #ad8ec8;
+  width: 50%;
+  max-width: 190px;
 }
 /*---Contact End---*/
-footer p {
+footer{
   color: white;
   margin: 0px !important;
+  background: #553a63;
+  padding: 20px;
 }
 footer span {
   margin: auto 5px;
@@ -235,7 +237,13 @@ i.fa.fa-heart {
   padding: 0;
 }
 
-
+.button-decoration {
+  background: rgb(85, 58, 99);
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    box-shadow: 2px 4px 5px rgb(85, 58,99);
+}
 @media only screen and (max-width: 768px) {
   .angle-background {
       margin: 0 0 105px;
