@@ -8,7 +8,7 @@ var playScenario = ["extends one claw and drags it across their throat to signal
                     "starts to look at you pleadingly, paces around, and meows insistently. Your ears begin to curdle, its a horrible sound...",
                     "farts like a grown man. They call it death by 1000 litter boxes...the smell chokes you and causes your right eye to twitch...",
                     "pulls a BIG RED button from their poofy coat while they look dead into your eyes they press the button. A coil from the $5000 espresso machine pops out and flings towards you...",
-                    "licks your hand and eyeballs. The goal, TOXOPLASMOSIS, unaware of if you are immune you hope for the best as you begin to sweat..."];
+                    "licks your hand and eyeballs. The goal, TOXOPLASMOSIS, unaware if you are immune you hope for the best as you begin to sweat..."];
 function generateRandomNumber(numberRange) {
     "use strict";
     if (typeof numberRange === "number") {
@@ -59,8 +59,9 @@ function nextPlay(currentPlayScenario) {
             olay.className = "overlay";
             resetBtn.className = "active";
         } else {
-            addToPage("outcome", "but you some how you survive and are ready to take on the next round!");
-            console.log("You can continue to live");
+            if (playerOne.lives % 2 === 0) {
+                addToPage("outcome", "but you some how you survive and are ready to take on the next round!");
+            } else { addToPage("outcome", "but you can continue to live!"); }
         }
     } else if (round > 5) {
         addToPage("outcome", "GAME OVER");
@@ -78,7 +79,7 @@ function updateScores() {
 nextPlay("<p>" + playerOne.name + ", you're the Manager of your local cat cafe, Catopia. The health inspector is visiting today, your kittys are made aware of the impending visit and all hell breaks loose!</p>" +
           "<p>The ring leader, " + feralCat.name + " " + beginScenario[generateRandomNumber(beginScenario.length)] + " causing a true Catastrophe.</p>" +
           "<p>" + feralCat.name + ", Informs you the only way to save your cafe is to beat them in a game of Kitty Roulette.</p>" +
-          "<p>Normally they play Kitty Roulette with 9 lives but because of your feeble human body they are only giving you <b>3 Lives</b></p><p>" +
+          "<p>Normally they play Kitty Roulette with 9 lives but because of your feeble human body they are only giving you <b>3 Lives</b>.</p><p>" +
           feralCat.name + " will put you through a series of random situations known to cause pain to humans. If you survive <b>5 Rounds</b> unharmed you Win...If you don't you will meet your demise and lose your job </p>", 0);
 
 
