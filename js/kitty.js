@@ -73,12 +73,12 @@ function nextPlay(currentPlayScenario) {
 function updateScores() {
     'use strict';
     // document.getElementById("playerOneScore").innerHTML = playerOne.name + " Score: " + playerOne.lives + "</br>Skips Left: " + playerOne.skip + "Round:" + round;
-    addToPage("playerOneScore", playerOne.name + "'s Score: " + playerOne.lives + "</br> Round:" + round);
+    addToPage("playerOneScore", playerOne.name + "'s Lives: " + playerOne.lives + "</br> Round:" + round);
 }
 
 nextPlay("<p>" + playerOne.name + ", you're the Manager of your local cat cafe, Catopia. The health inspector is visiting today, your kittys are made aware of the impending visit and all hell breaks loose!</p>" +
           "<p>The ring leader, " + feralCat.name + " " + beginScenario[generateRandomNumber(beginScenario.length)] + " causing a true Catastrophe.</p>" +
-          "<p>" + feralCat.name + ", Informs you the only way to save your cafe is to beat them in a game of Kitty Roulette.</p>" +
+          "<p>" + feralCat.name + ", informs you the only way to save your cafe is to beat them in a game of Kitty Roulette.</p>" +
           "<p>Normally they play Kitty Roulette with 9 lives but because of your feeble human body they are only giving you <b>3 Lives</b>.</p><p>" +
           "<p>This is a game of probability! You may lose a life in some scenarios but some you may be ready for another round. Good luck lasting 5 rounds!</p>" +
           feralCat.name + " will put you through a series of random situations known to cause pain to humans. If you survive <b>5 Rounds</b> unharmed you Win...If you don't you will meet your demise and lose your job </p>", 0);
