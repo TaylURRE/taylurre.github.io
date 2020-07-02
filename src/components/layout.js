@@ -34,12 +34,13 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+
       </div>
+      <footer>
+          © {new Date().getFullYear()}, Built with
+          ☕️ and Gatsby 
+          Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>     
+        </footer>
     </>
   )
 }

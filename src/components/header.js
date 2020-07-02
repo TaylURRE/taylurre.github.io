@@ -6,17 +6,13 @@ const Header = ({ siteTitle }) => (
   <header>
       <div className="logo">
         <Link to="/">
-          <img src={logo}/>
+          <img src={logo} alt="Taylor Dennis'/s Digital Portfolio"/>
         </Link>
       </div>
       <div className="navigation">
           <nav>
-            <Link to="/about">About</Link>
             <Link to="/contact">Contact</Link>
-            <Link to="/contact">Blog</Link>
-            {/* <Link to="/work">Work</Link>
-            <Link to="/what-i-use">What I Use</Link>
-            <Link to="/blog">Blog</Link> */}
+            <Link to="/blog">Blog</Link>
           </nav>
       </div>
   </header>

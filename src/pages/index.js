@@ -1,11 +1,8 @@
 import React from "react"
-import { Link } from "gatsby"
 import "../styles/styles.scss"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
-import laptop from "../images/laptop.png"
 
 const IndexPage = () => (
   <Layout>
@@ -18,6 +15,7 @@ const IndexPage = () => (
 
       <p>Check out my learnings and thoughts in my blog</p>
       <p>I'm also in the wild so connect with me on social media</p>
+
     </div>
   </Layout>
 )
