@@ -7,6 +7,14 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
+    { 
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blogs`,
+        path: `${__dirname}/src/pages/blogs`
+       },
+    },
+     `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
