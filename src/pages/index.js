@@ -17,11 +17,14 @@ const IndexPage = () => (
     <div className="socialMedia">
         <ul>
           <li>
-            <img className="linkedIn" src={linkedinImg}/>
+          <a href="https://www.linkedin.com/in/taylorstallworth/">
+            <img className="linkedIn" src={linkedinImg} alt="link to Taylor Dennis' linkedIn"/>
+          </a>
           </li>
           <li>
-          <img className="githubImg" src={githubImg}/>
-
+          <a href="https://github.com/TaylURRE">
+            <img className="githubImg" src={githubImg} alt="link to Taylor Dennis' GitHub"/>
+          </a>
           </li>
         </ul>
       </div>
