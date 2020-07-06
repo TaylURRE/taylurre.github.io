@@ -3,20 +3,28 @@ import "../styles/styles.scss"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import linkedinImg from "../images/linkedin.svg"
+import githubImg from "../images/github.svg"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div>
-      <p>Hi there! </p>
+    <div className="home">
+      <p>Hi there!</p>
       <p>My name is <b>Taylor Dennis</b> and I am a self-taught Software Engineer</p>
-      <p><b>Javascript</b> is my language of choice but I'm always DTL (down to learn)</p>
       <p>my <b>pronouns</b> are she/her/lady</p>
-
-      <p>Check out my learnings and thoughts in my blog</p>
-      <p>I'm also in the wild so connect with me on social media</p>
-
     </div>
+    <div className="socialMedia">
+        <ul>
+          <li>
+            <img className="linkedIn" src={linkedinImg}/>
+          </li>
+          <li>
+          <img className="githubImg" src={githubImg}/>
+
+          </li>
+        </ul>
+      </div>
   </Layout>
 )
 
