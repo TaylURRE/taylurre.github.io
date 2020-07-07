@@ -10,7 +10,7 @@ const SecondPage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Blog" />
-      <h1>Blog</h1>
+      <h1 style={{color: '#B4AAFF'}}>Blog</h1>
       <div>
         {posts.map(post => (
           <div key={post.id} className="article-box">
@@ -18,7 +18,7 @@ const SecondPage = ({ data }) => {
               to={post.fields.slug}
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <h3 className="title">{post.frontmatter.title}</h3>
+              <h3 className="title" style={{color: '#B4AAFF'}}>{post.frontmatter.title}</h3>
             </Link>
             <p className="date">
               {post.frontmatter.date} 
