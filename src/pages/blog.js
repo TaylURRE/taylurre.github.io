@@ -10,7 +10,6 @@ const SecondPage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Blog" />
-      <h1 style={{color: '#B4AAFF'}}>Blog</h1>
       <div>
         {posts.map(post => (
           <div key={post.id} className="article-box">
