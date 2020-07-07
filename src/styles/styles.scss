@@ -4,7 +4,7 @@ $font: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
 
 $white: #FFF;
 $black:  #000;
-$dark-grey: hsl(0, 0%, 20%);
+$dark-grey: #0f2025;
 $dark-pink: #E27396;
 $dark-purple: #21204e;
 $pink: #EA9AB2;
@@ -31,8 +31,8 @@ a, h1, h2, h3, p {
 }
 
 .home {
-    font-size: 1.5em;
-    line-height: 1.5em;
+    font-size: 2em;
+    line-height: 1.75em;
     b {
         color: $light-purple;
     }
