@@ -19,6 +19,9 @@ body {
     font-size: 16px;
     background: $dark-grey;
     color: $white;
+    p {
+        color: $white;
+    }
 }
 
 .home {
